@@ -19,6 +19,7 @@ class Frame:
     projection_matrix = None
     intrinsics = None
     image_path = None
+    has_image = None
 
     @staticmethod
     def from_json(json_path: str):
